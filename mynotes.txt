@@ -1,0 +1,19 @@
+RUN THSI COMMAND FIRST 
+docker run --name postgres-db -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres
+
+------------------------------------------------------------------------------------------------------ 
+
+
+
+
+
+
+
+
+
+
+
+SOME OTHER COMMANDS 
+->docker inspect id-of-container
+--------------------------------------------------------
+->docker exec -it postgres-db psql -U postgres → opens psql inside the container
